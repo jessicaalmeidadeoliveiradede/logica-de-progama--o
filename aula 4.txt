@@ -1,0 +1,81 @@
+algoritmo "vf"
+// Função :
+// Autor :
+// Data : 31/08/2020
+// Seção de Declarações 
+var
+ a,b,c:inteiro
+inicio
+    a<-3
+    b<-2
+    C<- 5
+    escreva (nao(b>c) e (a>c))
+fimalgoritmo
+algoritmo "vf"
+// Função :
+// Autor :
+// Data : 31/08/2020
+// Seção de Declarações 
+var
+ a,b,c:inteiro
+inicio
+    a<-3
+    b<-2
+    C<- 5
+    escreva ((b>c) e (a>c))
+fimalgoritmo
+algoritmo "vf"
+// Função :
+// Autor :
+// Data : 31/08/2020
+// Seção de Declarações 
+var
+ a,b,c:inteiro
+inicio
+    a<-3
+    b<-2
+    C<- 5
+    escreva ((b>c) OU (a>c))
+fimalgoritmo
+algoritmo "TRIANGULO"
+// Função :
+// Autor :
+// Data : 31/08/2020
+// Seção de Declarações 
+var
+ L1,L2,L3:REAL
+ EQ, ES:LOGICO
+inicio
+  ESCREVA ("DIGITE O PRIMEIRO LADO")
+  LEIA (L1)
+  ESCREVA("DIGITE O SEGUNDO LADO")
+  LEIA (L2)
+  ESCREVA("DIGITE O TERCEIRO LADO")
+  LEIA (L3)
+  EQ<- (L1=L2) E (L2=L3)
+  ES<- (L1<>L2) E (L2<>L3)
+  ESCREVAL("O TRIANGULO EQILATERO",EQ)
+  ESCREVA ("O TRIAGULO E ESCALENO",ES)
+fimalgoritmo
+algoritmo "TRIANGULO"
+// Função :
+// Autor :
+// Data : 31/08/2020
+// Seção de Declarações 
+var
+ L1,L2,L3:REAL
+ EQ, ES, TRI:LOGICO
+inicio
+  ESCREVA ("DIGITE O PRIMEIRO LADO")
+  LEIA (L1)
+  ESCREVA("DIGITE O SEGUNDO LADO")
+  LEIA (L2)
+  ESCREVA("DIGITE O TERCEIRO LADO")
+  LEIA (L3)
+  TRI<-(L1<L2+L3) E (L2<L1+L3) E (L3<L2+L1)
+  EQ<- (L1=L2) E (L2=L3)
+  ES<- (L1<>L2) E (L2<>L3)
+  ESCREVAL("PODE FORMA UM TRIANGULO",TRI)
+  ESCREVAL("O TRIANGULO EQILATERO",EQ)
+  ESCREVA ("O TRIAGULO E ESCALENO",ES)
+fimalgoritmo

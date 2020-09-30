@@ -1,0 +1,17 @@
+algoritmo "VALOR"
+// Função :
+// Autor :
+// Data : 18/09/2020
+// Seção de Declarações 
+var
+ VALOR,CONTADOR:INTEIRO
+inicio
+ CONTADOR<-0
+ ESCREVA("QUANTA ATE QUANDO")
+ LEIA (VALOR)
+ ENQUANTO(CONTADOR<= VALOR)faca
+  ESCREVAL(CONTADOR)
+  CONTADOR<- CONTADOR+1
+  FIMENQUANTO
+  ESCREVA("TERMINEI A CONTA ")
+fimalgoritmo

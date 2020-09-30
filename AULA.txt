@@ -1,0 +1,29 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 11/08/2020
+// Seção de Declarações 
+var
+ nome:caracter
+
+inicio
+       escreva("digite seu nome")
+       leia(nome)
+       escreva ("muito prazer",nome)
+fimalgoritmo
+algoritmo "valor"
+
+var
+  N1,n2,s:inteiro
+  m: real
+
+inicio
+  escreva ("informa um numero")
+  leia(N1)
+  escreva ("informe outro numero")
+  leia (N2)
+  M<- (N1+N2)/4
+  escreva("a media entre",N1,"e",N2,"igual a",M)
+  
+
+fimalgoritmo

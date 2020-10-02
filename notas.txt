@@ -1,0 +1,21 @@
+algoritmo "AMELIA"
+// Função :
+// Autor :
+// Data : 04/09/2020
+// Seção de Declarações 
+var
+      N1,N2,S:INTEIRO
+
+inicio
+  ESCREVA("DIGITE A PRIMEIRA NOTA")
+  LEIA(N1)
+  ESCREVA("DIGITE A SEGUNDA NOTA")
+  LEIA(N2)
+  M<-(N1+n2)/2
+  ESCREVAL ("QUAL E A SOMA DAS DUAS PROVA ",S)
+  SE (N1>=7)E (N2>=7)ENTAO
+  ESCREVA("APROVADA")
+  SENAO
+  ESCREVA ("REPROVADA")
+  FIMSE
+fimalgoritmo

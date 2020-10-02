@@ -1,0 +1,16 @@
+algoritmo "numero primo"
+// Função :
+// Autor :
+// Data : 22/09/2020
+// Seção de Declarações 
+var
+    c,n:inteiro
+inicio
+   c<-1
+ escreva("digite numero")
+ leia (n)
+ repita
+    escreval(c)
+    c<-c+1
+ ate(c>n)
+fimalgoritmo
